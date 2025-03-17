@@ -1,26 +1,33 @@
-//
-// Created by 张婉儿 on 2025/3/16.
-//
 #include "Log.h"
 #include <iostream>
-private:
-int m_LogLevel = Log::LogLevelInfo;
-void SetLevel(int level)
-{
-  Log::m_LogLevel = level;
+
+void Log::SetLevel(const int level) {
+  m_LogLevel = level;
 }
-void Warn(const char* msg) {
-  if (Log::m_LogLevel >= Log::LogLevelWarning){
-    std::cout <<"[WARNING]: " << msg << std::endl;
+
+void Log::Warn(const char* msg) const {
+  if (m_LogLevel >= Log::LogLevelWarning) {
+    std::cout << "[WARNING]: " << msg << std::endl;
   }
 }
-void Error(const char* msg) {
-  if (Log::m_LogLevel >= Log::LogLevelError) {
-    std::cout <<"[ERROR]: " << msg << std::endl;
+
+void Log::Error(const char* msg) const {
+  if (m_LogLevel >= Log::LogLevelError) {
+    std::cout << "[ERROR]: " << msg << std::endl;
   }
 }
-void Info(const char* msg) {
-  if (Log::m_LogLevel >= Log::LogLevelInfo) {
-    std::cout <<"[INFO]: " << msg << std::endl;
+
+void Log::Info(const char* msg) const {
+  if (m_LogLevel >= Log::LogLevelInfo) {
+    std::cout << "[INFO]: " << msg << std::endl;
   }
+}
+
+int main() {
+  Log::GetInstance().SetLevel(Log::LogLevelInfo);
+  Log::GetInstance().Warn("Hello!");
+  Log::GetInstance().Error("Hello!");
+  Log::GetInstance().Info("Hello!");
+  std::cin.get();
+  return 0;
 }

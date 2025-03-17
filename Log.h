@@ -1,19 +1,22 @@
-//
-// Created by 张婉儿 on 2025/3/16.
-//
-
 #pragma once
 
 class Log {
+private:
+  int m_LogLevel = LogLevelInfo;
+  Log() = default; // 私有构造函数
+
 public:
-  const static int LogLevelError = 0;
-  const static int LogLevelWarning = 1;
-  const static int LogLevelInfo = 2;
-public:
+  static const int LogLevelError = 0;
+  static const int LogLevelWarning = 1;
+  static const int LogLevelInfo = 2;
+
+  static Log& GetInstance() {
+    static Log instance;
+    return instance;
+  }
+
   void SetLevel(int level);
   void Warn(const char* msg) const;
   void Error(const char* msg) const;
   void Info(const char* msg) const;
 };
-
-
