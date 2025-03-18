@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 
 class Entity1 {
 public:
@@ -77,10 +78,19 @@ void testArray() {
   std::array<int, size> arr = {};//3.需要更多空间维护数组
 }
 //---------------------------------------------------
+//String
+void testString() {
+  const char* myString = "hello,world!";//C-style to define a string(Not allocated in heap)
+  std::string str = "std String";//Cpp-style to use a string
+  char str2[4] = {'h','e','l','l'};
+  std::cout << myString[6] << std::endl;
+  std::cout << str2[3] << std::endl;
+
+}
+//---------------------------------------------------
 
 
 int main() {
 
-  std::cin.get();
   return 0;
 }
