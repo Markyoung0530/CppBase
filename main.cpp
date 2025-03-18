@@ -69,6 +69,14 @@ public:
   std::string GetName() override {return m_Name;};
 };
 //---------------------------------------------------
+//数组
+void testArray() {
+  const int size = 5;
+  int b[size];//1.在栈上创建
+  int* ptr = new int[size];ptr[0] = 0;//2.在堆上创建
+  std::array<int, size> arr = {};//3.需要更多空间维护数组
+}
+//---------------------------------------------------
 
 
 int main() {
