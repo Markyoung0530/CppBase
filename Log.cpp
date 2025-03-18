@@ -23,11 +23,11 @@ void Log::Info(const char* msg) const {
   }
 }
 
-int main() {
-  Log::GetInstance().SetLevel(Log::LogLevelInfo);
-  Log::GetInstance().Warn("Hello!");
-  Log::GetInstance().Error("Hello!");
-  Log::GetInstance().Info("Hello!");
-  std::cin.get();
-  return 0;
-}
+// int main() {
+//   Log::GetInstance().SetLevel(Log::LogLevelInfo);
+//   Log::GetInstance().Warn("Hello!");
+//   Log::GetInstance().Error("Hello!");
+//   Log::GetInstance().Info("Hello!");
+//   std::cin.get();
+//   return 0;
+// }

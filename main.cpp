@@ -1,6 +1,6 @@
 #include <iostream>
 #include <string>
-
+#include "myUtils/StringReverser.h"
 class Entity1 {
 public:
   float x=0,y=0;
@@ -91,6 +91,6 @@ void testString() {
 
 
 int main() {
-
-  return 0;
+  const std::string str = "abcdefghijklmnopqrstuvwxyz,ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+  std::cout << myUtils::StringReverser::reverse(str) << std::endl;
 }

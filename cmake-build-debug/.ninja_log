@@ -1,5 +1,19 @@
 # ninja log v6
 500	532	1742054221005158530	CppBase	12644a23495b8bda
-1	52	1742055152898694070	build.ninja	c0fba0d7130fa5ae
-3	500	1742054220508185953	CMakeFiles/CppBase.dir/main.cpp.o	2e50e7f144e4265d
+1	52	1742307006920104483	build.ninja	c0fba0d7130fa5ae
 3	494	1742055450081885769	CMakeFiles/CppBase.dir/main.cpp.o	2e50e7f144e4265d
+5	458	1742308324947066400	CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o	f3377cfcef65c1f6
+5	468	1742308324946922651	CMakeFiles/CppBase.dir/Log.cpp.o	fcfc6866b1af7238
+4	469	1742308324946392197	CMakeFiles/CppBase.dir/main.cpp.o	2e50e7f144e4265d
+5	634	1742308525012841935	CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o	f3377cfcef65c1f6
+4	647	1742308525011889650	CMakeFiles/CppBase.dir/main.cpp.o	2e50e7f144e4265d
+4	439	1742308595654144280	CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o	f3377cfcef65c1f6
+9	625	1742309212207860864	CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o	f3377cfcef65c1f6
+4	449	1742309242363030011	CMakeFiles/CppBase.dir/Log.cpp.o	fcfc6866b1af7238
+450	482	1742309242808574578	CppBase	ef314a1c39f0ab3
+4	517	1742309284196546404	CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o	f3377cfcef65c1f6
+520	553	1742309284712046502	CppBase	ef314a1c39f0ab3
+4	492	1742309622551143634	CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o	f3377cfcef65c1f6
+494	588	1742309623041597780	CppBase	ef314a1c39f0ab3
+4	536	1742309683392156899	CMakeFiles/CppBase.dir/main.cpp.o	2e50e7f144e4265d
+538	572	1742309683926093864	CppBase	ef314a1c39f0ab3
