@@ -55,14 +55,24 @@ public:
   }
 };
 //---------------------------------------------------
+//Virtual function
+class testFather {
+  int x = 0;
+public:
+  virtual std::string GetName() = 0;//pure virtual Function
+};
+
+class testSon : public testFather {
+private:
+  std::string m_Name;
+public:
+  std::string GetName() override {return m_Name;};
+};
+//---------------------------------------------------
 
 
 int main() {
-  Player p;
-  p.PrintName();
-  std::cout << p.X <<","<< p.Y << std::endl;
-  p.Move(0.1f,1.0f);
-  std::cout << p.X <<","<< p.Y << std::endl;
+
   std::cin.get();
   return 0;
 }
