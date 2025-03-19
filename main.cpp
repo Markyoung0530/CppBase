@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <array>
 #include "myUtils/StringReverser.h"
 class Entity1 {
 public:
@@ -51,7 +52,7 @@ public:
     Name = "defaultName";
   }
 
-  void PrintName() {
+  void PrintName() const {
     std::cout << Name << std::endl;
   }
 };
@@ -75,7 +76,9 @@ void testArray() {
   const int size = 5;
   int b[size];//1.在栈上创建
   int* ptr = new int[size];ptr[0] = 0;//2.在堆上创建
-  std::array<int, size> arr = {};//3.需要更多空间维护数组
+  std::array<int, 5> arr = {1,2,3,4,5};//3.需要更多空间维护数组
+  arr.fill(0);
+  delete[] ptr;
 }
 //---------------------------------------------------
 //String

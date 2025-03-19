@@ -8,4 +8,5 @@ add_executable(CppBase main.cpp
         Log.h
         myUtils/StringReverser.cpp
         myUtils/StringReverser.h
+        myUtils/STLpractise.cpp
 )

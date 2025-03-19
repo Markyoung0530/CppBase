@@ -176,6 +176,54 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+myUtils/STLpractise.obj: myUtils/STLpractise.cpp.obj
+.PHONY : myUtils/STLpractise.obj
+
+# target to build an object file
+myUtils/STLpractise.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.obj
+.PHONY : myUtils/STLpractise.cpp.obj
+
+myUtils/STLpractise.i: myUtils/STLpractise.cpp.i
+.PHONY : myUtils/STLpractise.i
+
+# target to preprocess a source file
+myUtils/STLpractise.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.i
+.PHONY : myUtils/STLpractise.cpp.i
+
+myUtils/STLpractise.s: myUtils/STLpractise.cpp.s
+.PHONY : myUtils/STLpractise.s
+
+# target to generate assembly for a file
+myUtils/STLpractise.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.s
+.PHONY : myUtils/STLpractise.cpp.s
+
+myUtils/StringReverser.obj: myUtils/StringReverser.cpp.obj
+.PHONY : myUtils/StringReverser.obj
+
+# target to build an object file
+myUtils/StringReverser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.obj
+.PHONY : myUtils/StringReverser.cpp.obj
+
+myUtils/StringReverser.i: myUtils/StringReverser.cpp.i
+.PHONY : myUtils/StringReverser.i
+
+# target to preprocess a source file
+myUtils/StringReverser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.i
+.PHONY : myUtils/StringReverser.cpp.i
+
+myUtils/StringReverser.s: myUtils/StringReverser.cpp.s
+.PHONY : myUtils/StringReverser.s
+
+# target to generate assembly for a file
+myUtils/StringReverser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\CppBase.dir\build.make CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.s
+.PHONY : myUtils/StringReverser.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +239,12 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... myUtils/STLpractise.obj
+	@echo ... myUtils/STLpractise.i
+	@echo ... myUtils/STLpractise.s
+	@echo ... myUtils/StringReverser.obj
+	@echo ... myUtils/StringReverser.i
+	@echo ... myUtils/StringReverser.s
 .PHONY : help
 
 

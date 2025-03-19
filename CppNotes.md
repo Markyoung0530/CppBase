@@ -1,4 +1,4 @@
-#  1.static
+#  1. static
 
 # 2. const
 
