@@ -1,16 +1,14 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CppBase.dir/Log.cpp.obj"
-  "CMakeFiles/CppBase.dir/Log.cpp.obj.d"
-  "CMakeFiles/CppBase.dir/main.cpp.obj"
-  "CMakeFiles/CppBase.dir/main.cpp.obj.d"
-  "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.obj"
-  "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.obj.d"
-  "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.obj"
-  "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.obj.d"
-  "CppBase.exe"
-  "CppBase.exe.manifest"
+  "CMakeFiles/CppBase.dir/Log.cpp.o"
+  "CMakeFiles/CppBase.dir/Log.cpp.o.d"
+  "CMakeFiles/CppBase.dir/main.cpp.o"
+  "CMakeFiles/CppBase.dir/main.cpp.o.d"
+  "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o"
+  "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o.d"
+  "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o"
+  "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o.d"
+  "CppBase"
   "CppBase.pdb"
-  "libCppBase.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
