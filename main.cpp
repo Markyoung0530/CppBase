@@ -88,7 +88,6 @@ void testString() {
   char str2[4] = {'h','e','l','l'};
   std::cout << myString[6] << std::endl;
   std::cout << str2[3] << std::endl;
-
 }
 //---------------------------------------------------
 

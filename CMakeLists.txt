@@ -9,4 +9,5 @@ add_executable(CppBase main.cpp
         myUtils/StringReverser.cpp
         myUtils/StringReverser.h
         myUtils/STLpractise.cpp
+        myUtils/SmartPoiniter.cpp
 )

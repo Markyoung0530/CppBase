@@ -201,6 +201,30 @@ myUtils/STLpractise.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.s
 .PHONY : myUtils/STLpractise.cpp.s
 
+myUtils/SmartPoiniter.o: myUtils/SmartPoiniter.cpp.o
+.PHONY : myUtils/SmartPoiniter.o
+
+# target to build an object file
+myUtils/SmartPoiniter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o
+.PHONY : myUtils/SmartPoiniter.cpp.o
+
+myUtils/SmartPoiniter.i: myUtils/SmartPoiniter.cpp.i
+.PHONY : myUtils/SmartPoiniter.i
+
+# target to preprocess a source file
+myUtils/SmartPoiniter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.i
+.PHONY : myUtils/SmartPoiniter.cpp.i
+
+myUtils/SmartPoiniter.s: myUtils/SmartPoiniter.cpp.s
+.PHONY : myUtils/SmartPoiniter.s
+
+# target to generate assembly for a file
+myUtils/SmartPoiniter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.s
+.PHONY : myUtils/SmartPoiniter.cpp.s
+
 myUtils/StringReverser.o: myUtils/StringReverser.cpp.o
 .PHONY : myUtils/StringReverser.o
 
@@ -243,6 +267,9 @@ help:
 	@echo "... myUtils/STLpractise.o"
 	@echo "... myUtils/STLpractise.i"
 	@echo "... myUtils/STLpractise.s"
+	@echo "... myUtils/SmartPoiniter.o"
+	@echo "... myUtils/SmartPoiniter.i"
+	@echo "... myUtils/SmartPoiniter.s"
 	@echo "... myUtils/StringReverser.o"
 	@echo "... myUtils/StringReverser.i"
 	@echo "... myUtils/StringReverser.s"

@@ -5,6 +5,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CppBase.dir/main.cpp.o.d"
   "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o"
   "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o.d"
+  "CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o"
+  "CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o.d"
   "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o"
   "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o.d"
   "CppBase"
