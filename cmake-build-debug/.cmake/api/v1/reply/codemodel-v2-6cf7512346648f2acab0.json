@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.30"
@@ -19,7 +19,7 @@
 					]
 				}
 			],
-			"name" : "Release",
+			"name" : "Debug",
 			"projects" : 
 			[
 				{
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "CppBase::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-CppBase-Release-0b9d2cb3bd0b9e1d8584.json",
+					"jsonFile" : "target-CppBase-Debug-2069d4cf5c534007c2f4.json",
 					"name" : "CppBase",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/zhangwaner/Documents/ClionProjects/CppBase/cmake-build-release",
-		"source" : "/Users/zhangwaner/Documents/ClionProjects/CppBase"
+		"build" : "/Users/markyoung/CLionProjects/CppBase/cmake-build-debug",
+		"source" : "/Users/markyoung/CLionProjects/CppBase"
 	},
 	"version" : 
 	{

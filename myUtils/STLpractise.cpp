@@ -152,10 +152,10 @@ void test_countFrequency() {
 
 //----------------------------------------------------------------------------------
 //-------------------------------------------------------------
-int main() {
-  //test_reverseVector();
-  //test_findMax();
-  //test_removeDuplicatesFromVector();
-  //test_findIndex();
-  test_countFrequency();
-}
+//int main() {
+//  //test_reverseVector();
+//  //test_findMax();
+//  //test_removeDuplicatesFromVector();
+//  //test_findIndex();
+//  test_countFrequency();
+//}

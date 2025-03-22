@@ -73,71 +73,85 @@ CMakeFiles/CppBase.dir/main.cpp.o: CMakeFiles/CppBase.dir/flags.make
 CMakeFiles/CppBase.dir/main.cpp.o: /Users/markyoung/CLionProjects/CppBase/main.cpp
 CMakeFiles/CppBase.dir/main.cpp.o: CMakeFiles/CppBase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CppBase.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/main.cpp.o -MF CMakeFiles/CppBase.dir/main.cpp.o.d -o CMakeFiles/CppBase.dir/main.cpp.o -c /Users/markyoung/CLionProjects/CppBase/main.cpp
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/main.cpp.o -MF CMakeFiles/CppBase.dir/main.cpp.o.d -o CMakeFiles/CppBase.dir/main.cpp.o -c /Users/markyoung/CLionProjects/CppBase/main.cpp
 
 CMakeFiles/CppBase.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppBase.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/main.cpp > CMakeFiles/CppBase.dir/main.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/main.cpp > CMakeFiles/CppBase.dir/main.cpp.i
 
 CMakeFiles/CppBase.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppBase.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/main.cpp -o CMakeFiles/CppBase.dir/main.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/main.cpp -o CMakeFiles/CppBase.dir/main.cpp.s
 
 CMakeFiles/CppBase.dir/Log.cpp.o: CMakeFiles/CppBase.dir/flags.make
 CMakeFiles/CppBase.dir/Log.cpp.o: /Users/markyoung/CLionProjects/CppBase/Log.cpp
 CMakeFiles/CppBase.dir/Log.cpp.o: CMakeFiles/CppBase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CppBase.dir/Log.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/Log.cpp.o -MF CMakeFiles/CppBase.dir/Log.cpp.o.d -o CMakeFiles/CppBase.dir/Log.cpp.o -c /Users/markyoung/CLionProjects/CppBase/Log.cpp
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/Log.cpp.o -MF CMakeFiles/CppBase.dir/Log.cpp.o.d -o CMakeFiles/CppBase.dir/Log.cpp.o -c /Users/markyoung/CLionProjects/CppBase/Log.cpp
 
 CMakeFiles/CppBase.dir/Log.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppBase.dir/Log.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/Log.cpp > CMakeFiles/CppBase.dir/Log.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/Log.cpp > CMakeFiles/CppBase.dir/Log.cpp.i
 
 CMakeFiles/CppBase.dir/Log.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppBase.dir/Log.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/Log.cpp -o CMakeFiles/CppBase.dir/Log.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/Log.cpp -o CMakeFiles/CppBase.dir/Log.cpp.s
 
 CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o: CMakeFiles/CppBase.dir/flags.make
 CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o: /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp
 CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o: CMakeFiles/CppBase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o -MF CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o.d -o CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o -c /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o -MF CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o.d -o CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o -c /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp
 
 CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp > CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp > CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.i
 
 CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp -o CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/myUtils/StringReverser.cpp -o CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.s
 
 CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o: CMakeFiles/CppBase.dir/flags.make
 CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o: /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp
 CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o: CMakeFiles/CppBase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o -MF CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o.d -o CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o -c /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o -MF CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o.d -o CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o -c /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp
 
 CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp > CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp > CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.i
 
 CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp -o CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/myUtils/STLpractise.cpp -o CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.s
 
 CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o: CMakeFiles/CppBase.dir/flags.make
 CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o: /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp
 CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o: CMakeFiles/CppBase.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o -MF CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o.d -o CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o -c /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o -MF CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o.d -o CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o -c /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp
 
 CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp > CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.i
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp > CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.i
 
 CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp -o CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.s
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/myUtils/SmartPoiniter.cpp -o CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.s
+
+CMakeFiles/CppBase.dir/Solution.cpp.o: CMakeFiles/CppBase.dir/flags.make
+CMakeFiles/CppBase.dir/Solution.cpp.o: /Users/markyoung/CLionProjects/CppBase/Solution.cpp
+CMakeFiles/CppBase.dir/Solution.cpp.o: CMakeFiles/CppBase.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/CppBase.dir/Solution.cpp.o"
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CppBase.dir/Solution.cpp.o -MF CMakeFiles/CppBase.dir/Solution.cpp.o.d -o CMakeFiles/CppBase.dir/Solution.cpp.o -c /Users/markyoung/CLionProjects/CppBase/Solution.cpp
+
+CMakeFiles/CppBase.dir/Solution.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CppBase.dir/Solution.cpp.i"
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/markyoung/CLionProjects/CppBase/Solution.cpp > CMakeFiles/CppBase.dir/Solution.cpp.i
+
+CMakeFiles/CppBase.dir/Solution.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CppBase.dir/Solution.cpp.s"
+	/usr/local/opt/llvm/bin/clang++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/markyoung/CLionProjects/CppBase/Solution.cpp -o CMakeFiles/CppBase.dir/Solution.cpp.s
 
 # Object files for target CppBase
 CppBase_OBJECTS = \
@@ -145,7 +159,8 @@ CppBase_OBJECTS = \
 "CMakeFiles/CppBase.dir/Log.cpp.o" \
 "CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o" \
 "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o" \
-"CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o"
+"CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o" \
+"CMakeFiles/CppBase.dir/Solution.cpp.o"
 
 # External object files for target CppBase
 CppBase_EXTERNAL_OBJECTS =
@@ -155,9 +170,10 @@ CppBase: CMakeFiles/CppBase.dir/Log.cpp.o
 CppBase: CMakeFiles/CppBase.dir/myUtils/StringReverser.cpp.o
 CppBase: CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o
 CppBase: CMakeFiles/CppBase.dir/myUtils/SmartPoiniter.cpp.o
+CppBase: CMakeFiles/CppBase.dir/Solution.cpp.o
 CppBase: CMakeFiles/CppBase.dir/build.make
 CppBase: CMakeFiles/CppBase.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable CppBase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable CppBase"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CppBase.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

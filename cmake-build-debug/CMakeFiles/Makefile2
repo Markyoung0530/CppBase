@@ -81,12 +81,12 @@ clean: CMakeFiles/CppBase.dir/clean
 CMakeFiles/CppBase.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6 "Built target CppBase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5,6,7 "Built target CppBase"
 .PHONY : CMakeFiles/CppBase.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppBase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CppBase.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/markyoung/CLionProjects/CppBase/cmake-build-debug/CMakeFiles 0
 .PHONY : CMakeFiles/CppBase.dir/rule

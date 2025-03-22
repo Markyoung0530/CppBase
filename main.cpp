@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 #include <array>
+#include <vector>
+#include <unordered_map>
 #include "myUtils/StringReverser.h"
 class Entity1 {
 public:

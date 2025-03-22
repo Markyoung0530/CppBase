@@ -19,12 +19,12 @@ public:
 
     friend std::ostream& operator<<(std::ostream& stream, const String& string);
 };
-std::ostream& operator<<(std::ostream& stream, const String& string){
-    stream << string.m_Buffer;
-    return stream;
-}
+//std::ostream& operator<<(std::ostream& stream, const String& string){
+//    stream << string.m_Buffer;
+//    return stream;
+//}
 
-int main() {
-    String s = "chernodfdd";
-    std::cout << s << std::endl;
-}
+//int main() {
+//    String s = "chernodfdd";
+//    std::cout << s << std::endl;
+//}

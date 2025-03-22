@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CppBase.dir/Log.cpp.o"
   "CMakeFiles/CppBase.dir/Log.cpp.o.d"
+  "CMakeFiles/CppBase.dir/Solution.cpp.o"
+  "CMakeFiles/CppBase.dir/Solution.cpp.o.d"
   "CMakeFiles/CppBase.dir/main.cpp.o"
   "CMakeFiles/CppBase.dir/main.cpp.o.d"
   "CMakeFiles/CppBase.dir/myUtils/STLpractise.cpp.o"

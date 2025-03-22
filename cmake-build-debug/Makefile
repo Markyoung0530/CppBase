@@ -153,6 +153,30 @@ Log.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/Log.cpp.s
 .PHONY : Log.cpp.s
 
+Solution.o: Solution.cpp.o
+.PHONY : Solution.o
+
+# target to build an object file
+Solution.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/Solution.cpp.o
+.PHONY : Solution.cpp.o
+
+Solution.i: Solution.cpp.i
+.PHONY : Solution.i
+
+# target to preprocess a source file
+Solution.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/Solution.cpp.i
+.PHONY : Solution.cpp.i
+
+Solution.s: Solution.cpp.s
+.PHONY : Solution.s
+
+# target to generate assembly for a file
+Solution.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppBase.dir/build.make CMakeFiles/CppBase.dir/Solution.cpp.s
+.PHONY : Solution.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -261,6 +285,9 @@ help:
 	@echo "... Log.o"
 	@echo "... Log.i"
 	@echo "... Log.s"
+	@echo "... Solution.o"
+	@echo "... Solution.i"
+	@echo "... Solution.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
