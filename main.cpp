@@ -95,6 +95,6 @@ void testString() {
 
 
 int main() {
-  const std::string str = "abcdefghijklmnopqrstuvwxyz,ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  std::cout << myUtils::StringReverser::reverse(str) << std::endl;
+//  const std::string str = "abcdefghijklmnopqrstuvwxyz,ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+//  std::cout << myUtils::StringReverser::reverse(str) << std::endl;
 }

@@ -7,6 +7,9 @@
 #include <set>
 #include <unordered_set>
 #include <vector>
+#include <list>
+#include <deque>
+#include <forward_list>
 
 //----------------------------------------------------------------------------------
 //public variables
@@ -152,10 +155,12 @@ void test_countFrequency() {
 
 //----------------------------------------------------------------------------------
 //-------------------------------------------------------------
-//int main() {
-//  //test_reverseVector();
-//  //test_findMax();
-//  //test_removeDuplicatesFromVector();
-//  //test_findIndex();
-//  test_countFrequency();
-//}
+int main() {
+  //test_reverseVector();
+  //test_findMax();
+  //test_removeDuplicatesFromVector();
+  //test_findIndex();
+  //test_countFrequency();
+    std::stack<int> s(std::deque{1,2,3,4});
+
+}
